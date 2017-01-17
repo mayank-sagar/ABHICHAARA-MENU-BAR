@@ -1,0 +1,82 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script language="javascript">
+
+function linkIfMozilla() {
+if(navigator.userAgent.toLowerCase().indexOf("chrome") > -1){
+return;
+}
+else if(navigator.userAgent.toLowerCase().indexOf("ms") > -1) {
+return;
+}
+else if(navigator.userAgent.toLowerCase().indexOf("mozilla") > -1) {
+alert('alert');
+document.write('<link rel=stylesheet type="text/css" href="msfile.css"/>');
+}
+}
+
+
+linkIfMozilla();
+
+</script>
+
+</head>
+
+
+<body>
+<div id="nav">
+<div id="wrapper">
+<ul>
+<li id="home-menu"><a href="#"><img src="file:///C:\Users\user\Desktop\html project\images\home.png" align="center"/></a>
+<div id="home-side-bar-wrapper">
+<img src="file:///C:\Users\user\Desktop\html project\images\tri.png" id="home-tri-image"/>
+<div id="home-side-bar">
+<ul>
+<li> <a href="#">Home</a></li>
+<li> <a href="#">Link 1</a> </li>
+<li> <a href="#">Link 2</a> </li>
+<li> <a href="#">Link 3</a> </li>
+<li> <a href="#">Link 4</a> </li>
+<li> <a href="#">Link 5</a> </li>
+<li> <a href="#">Link 6</a> </li>
+<li> <a href="#">Link 7</a> </li>
+<li> <a href="#">Link 8</a> </li>
+<li> <a href="#">Link 9</a> </li>
+<li> <a href="#">Link 10</a> </li>
+<li> <a href="#">Link 11</a> </li>
+</ul>
+</div>
+</div>
+</li><li><a href="#">Downloads</a>
+<div>
+<img src="file:///C:\Users\user\Desktop\html project\images\tri.png"/>
+<ul class="drop-down">
+<li class="sub-menu-holder"><a href="#" >Alpha Products</a>
+<div class="sub-menu-wrapper"> 
+<img src="file:///C:\Users\user\Desktop\html project\images\sub tri.png" class="sub-tri-img"/>
+<ul class="sub-menu">
+<li><a href="#"> Product 1</a></li>
+<li><a href="#"> Product 2 </a></li>
+<li><a href="#"> Product 3 </a></li>
+</ul>
+</div>
+</li><li><a href="#">Latest Products</a></li>
+</ul>
+</div></li><li><a href="#">About us</a>
+</li><li><a href="#">Contact us</a>
+<div><img src="file:///C:\Users\user\Desktop\html project\images\tri.png"/>
+<ul class="drop-down">
+<li><a href="#">Facebook</a>
+</li><li><a href="#">Twitter</a>
+</li><li><a href="#">Pintrest</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+body {
+	padding:0px;
+	margin:0px;
+
+}
+
+#nav ul {
+    list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+
+#nav {
+	
+	background-color:#333;
+	
+}
+#nav li {
+margin:0px;
+padding:0px;
+}
+#nav a {
+	font-family:"Arial Black";
+	color:white;
+	text-decoration:none;
+	padding:20px;
+	display:inline-block;
+}
+
+#nav li:hover {
+	  background-color:#444;
+}
+
+#nav ul ul li a:hover {
+	color:cyan;
+}
+
+#nav ul li {
+	display:inline-block;
+}
+
+#wrapper {
+	margin-left:20px;
+	padding:0px;
+}
+
+#nav ul div{
+	display:none;
+	position:absolute;
+	top:10%;
+	left:inherit;
+}
+
+#nav ul li:hover div{
+	display:inline-block;
+}
+
+#nav ul li ul li {
+	display:block;
+}
+
+#nav .sub-tri-img {	
+padding:0px;
+margin-left:10%;
+}
+
+#nav ul li div  img {
+padding:5px;
+margin-left:70%;
+}
+
+#nav ul ul {
+	background:#333;
+	border:2px solid #0093DD;
+}
+
+
+.sub-menu {
+position:relative;
+left:30%;
+bottom:25px;
+}
+
+#nav ul li div .sub-menu-wrapper {
+display:none;
+width:80%;
+margin-top:10%;
+}
+
+#nav ul  li .sub-menu-holder:hover .sub-menu-wrapper {
+display:inline-block;
+}
+
+
+#nav ul li #home-side-bar-wrapper #home-side-bar {
+border-top:5px solid #0093DD;
+background-color:#333;
+width:100%;
+height:100%;
+display:block;
+margin-top:-5%;
+}
+
+#nav ul li #home-side-bar-wrapper {
+position:absolute;
+left:20px;
+top:10%;
+width:30%;
+height:80%;
+display:none;
+}
+
+#nav ul li #home-side-bar ul {
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+
+#nav ul li #home-side-bar ul li {
+border-left:5px solid #0093DD;
+margin:10px 0px;
+padding-left:10px;
+}
+
+#nav ul li #home-side-bar ul li a {
+text-decoration:none;
+color:white;
+letter-spacing:10px;
+display:inline-block;
+padding:8px;
+font-family:"Arial";
+}
+#nav #home-side-bar ul li:hover,#nav #home-side-bar ul li a:hover {
+color:cyan;
+background-color:#444;
+text-decoration:underline;
+}
+
+#home-menu:hover  #home-side-bar-wrapper {
+display:inline-block;
+}
+
+#nav #home-side-bar ul {
+border:none;
+}
+
+
+#nav ul li div #home-tri-image {
+margin-left:15px;
+}
+
+#home-side-bar ul {
+text-align:center;
+}
