@@ -1,4 +1,4 @@
-# menues
+# ABHICHAARA MENU BAR
 This is a menu bar for a public use
 
 # Changes needs to be done
